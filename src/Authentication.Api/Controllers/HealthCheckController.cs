@@ -7,7 +7,7 @@ namespace Authentication.Api.Controllers
     {
         [HttpGet]
         [AllowAnonymous]
-        public ActionResult Get()
+        public ActionResult HealthCheck()
         {
             return Ok();
         }
